@@ -1,6 +1,6 @@
 //logo配置
 export default {
     title:'莱茵数据中心',//logo标题
-    logo:'/public/logo.png',//logo图片路径
+    logo:'logo.png',//logo图片路径
     
 }

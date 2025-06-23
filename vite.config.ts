@@ -10,7 +10,7 @@ import { viteMockServe } from 'vite-plugin-mock'
 // https://vite.dev/config/
 export default defineConfig(({ command }) => {
   return {
-    
+    base: command === 'serve' ? '/' : '/Vue-1-admin/',
     plugins: [
       vue(),
       vueDevTools(), // 添加 Vue Devtools 插件
