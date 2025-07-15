@@ -1,0 +1,1 @@
+import{k as s,u as o,o as t,c as a,b as n,d as c,t as r,h as u,_}from"./index-BGIsQYYd.js";const l=s({__name:"index",setup(d){let e=o();return t(()=>{e.userInfo()}),(p,i)=>(n(),a("div",null,[c("h1",null," welcome,"+r(u(e).username),1)]))}}),f=_(l,[["__scopeId","data-v-ecc7c1c6"]]);export{f as default};
