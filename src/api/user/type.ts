@@ -3,11 +3,11 @@ export interface loginForm  {
     username: string;
     password: string;
 }
-
 interface dataType {
     token?: string;
     message?: string;
-
+    username?: string;
+    avatar?: string;
 }
 
 //登录接口返回数据类型
@@ -15,7 +15,7 @@ export interface loginResponseData {
     code: number,
     data: dataType,
     message?: string;
-    }
+}
 
     //定义服务器返回用户信息相关的数据类型
     interface userInfo {

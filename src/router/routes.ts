@@ -70,8 +70,9 @@ export const constantRoute = [{
 {
     //其它
     path: '/acl',
-      component: () => import('@/layout/index.vue'), // 关键：指定了布局组件
+    component: () => import('@/layout/index.vue'), // 关键：指定了布局组件
     name: 'Acl',
+    redirect: '/acl/user', // 重定向到第一个子路由
     meta: {
         title: '权限管理',
         hidden: false,
@@ -115,6 +116,7 @@ export const constantRoute = [{
     path: '/product',
     component: () => import('@/layout/index.vue'),
     name: 'Product',
+    redirect: '/product/trademark', // 重定向到第一个子路由
     meta: {
         hidden: false,
         title: '商品管理',

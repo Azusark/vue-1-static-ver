@@ -60,7 +60,7 @@ export const login = (data: loginForm) => {
   // 生产环境下,模拟登录,因为mock服务只在开发环境有效
   if (import.meta.env.PROD) {
     if (
-      (data.username === 'admin1' || data.username === 'user1111') &&
+      (data.username === 'admin' || data.username === 'user1111') &&
       data.password === '111111'
     ) {
       return Promise.resolve<any>({
@@ -118,4 +118,9 @@ export const logout = () => {
 }
 
 
-
+//new area 2025/7/2
+export const reqLogin = (data: loginForm) => request.post<any, loginResponseData>(API.LOGIN_URL, data);
+//获取用户信息接口方法
+export const reqUserInfo = () => request.get<any, userResponseData>(API.USERINFO_URL);
+//退出登录接口方法
+export const reqLogout = () => request.post<any, any>(API.LOGOUT_URL);

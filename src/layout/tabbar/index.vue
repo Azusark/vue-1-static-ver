@@ -3,9 +3,7 @@
         <div class="tabbar_left">
             
             <Breadcrumb />
-            <el-icon style="margin-right: 10px;">
-                <Expand />
-            </el-icon>
+            
             
 
         </div>

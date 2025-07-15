@@ -6,7 +6,13 @@
             <!-- 滚动组件 -->
             <el-scrollbar class="scrollbar">
                 <!-- 菜单组件 -->
-                <el-menu background-color=#444555 text-color="#fff" active-text-color="#ffd04b">
+                <el-menu 
+                    background-color=#444555 
+                    text-color="#fff" 
+                    active-text-color="#ffd04b"
+                    :default-active="$route.path"
+                    router
+                >
                     <!-- 根据路由动态生成菜单 -->
                     <Menu :menuList=userStore.menuRoutes></Menu>
                 </el-menu>
@@ -36,7 +42,10 @@ import Main from './main/index.vue'
 import Tabbar from './tabbar/index.vue';
 //获取
 import useuseStore from '@/store/modules/user';
+import { useRoute } from 'vue-router';
+
 let userStore = useuseStore();
+let $route = useRoute();
 </script>
 
 <style scoped lang="scss">
