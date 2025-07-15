@@ -1,0 +1,1 @@
+import{G as e}from"./GenericPage-C_wrJzqh.js";import{c as a,b as t,e as r}from"./index-Badz4XED.js";const i={__name:"index",setup(o){return(c,n)=>(t(),a("div",null,[r(e,{pageMeta:{title:"角色管理",icon:"UserFilled"},dataType:"role"})]))}};export{i as default};
