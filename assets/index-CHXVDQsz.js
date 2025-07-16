@@ -1,1 +1,0 @@
-import{_ as n,c as r,b as t,d as o}from"./index-BGIsQYYd.js";const s={};function c(a,e){return t(),r("div",null,e[0]||(e[0]=[o("h1",null," 404 当前页面不存在 ",-1)]))}const d=n(s,[["render",c]]);export{d as default};

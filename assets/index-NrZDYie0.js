@@ -1,1 +1,0 @@
-import{G as e}from"./GenericPage-Br9cR9wB.js";import{c as a,b as t,e as r}from"./index-BGIsQYYd.js";const i={__name:"index",setup(c){return(o,n)=>(t(),a("div",null,[r(e,{pageMeta:{title:"用户管理",icon:"User"},dataType:"user"})]))}};export{i as default};
