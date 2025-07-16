@@ -1,1 +1,0 @@
-import{G as e}from"./GenericPage-C_wrJzqh.js";import{c as t,b as a,e as r}from"./index-Badz4XED.js";const p={__name:"index",setup(o){return(c,n)=>(a(),t("div",null,[r(e,{pageMeta:{title:"属性管理",icon:"ChromeFilled"},dataType:"attr"})]))}};export{p as default};
